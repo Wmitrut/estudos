@@ -5,6 +5,9 @@
 			<h3>Calcula combustivel</h3>
 			
 				<script type="text/javascript">
+					function pulalinha(){
+						document.write("<hr>");
+					}
 					var tanque = 40;
 					var gasolina = 480;
 					var alcool = 300;
@@ -15,8 +18,11 @@
 					var pplg = gasolina/precoG;
 					var ppla = alcool/precoA;
 					document.write("Gasolina: "+consumoGasolina.toFixed(2)+"<br>");
+					pulalinha();	
 					document.write("Alcool: "+consumoAlcool.toFixed(2)+"<br>");
+					pulalinha();
 					document.write("preço por caminho Gasolina: "+pplg.toFixed(2)+"<br>");
+					pulalinha();
 					document.write("preço por caminho Alcool: "+ppla.toFixed(2)+"<br>");
 				</script>
 			</body>
