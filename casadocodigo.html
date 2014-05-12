@@ -5,14 +5,21 @@
 			<h3>funções</h3>
 			
 				<script type="text/javascript">
+					var ano = 2014;
+
+
+					function pulalinha(){
+						document.write("<hr><hr>");
+					}
 					function mostra(frase){
 						document.write(frase+ " <br>");
+						pulalinha();
 					}
-					mostra("testando");
-					mostra("funções");
-					mostra("em JS!");
-					mostra("não é lindo?");
-				
+					mostra("Eu nasci em "+(ano-22));
+					mostra("João nasceu em "+(ano-15));
+					mostra("A mãe em "+(ano-44));
+					console.log("MENSAGEM DE LOG!");
+							
 				</script>
 			</body>
 
