@@ -1,29 +1,23 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<head>Casa do Código</head>
 		<body>
 			
-			<h3>Seria isso um programa??</h3>
-			<strong>Não</strong> Consigo fazer algo além de conteúdo fixo?
-			<br>
-			Conheça o site da nossa editora:
-			<br>
-				<a href="http://www.casadocodigo.com.br">Clique aqui</a>!
-				<br>
-				<script>
-					alert("Podemos fazer mais com Javascript!");
-					document.write("Olá mundo!  <br><br>");
-					document.write("testando Javascript cru!");
-					alert("11/05/2014");
-				</script>
-				<br>
-				<br>
+			<h3>Calcula combustivel</h3>
+			
 				<script type="text/javascript">
-					var a = 20;
-					var b = 30;
-					var c = 50;
-					var total = a+b+c;
-					document.write(total);
+					var tanque = 40;
+					var gasolina = 480;
+					var alcool = 300;
+					var precoG = 2.90;
+					var precoA = 2.40;
+					var consumoAlcool = alcool/ tanque;
+					var consumoGasolina = gasolina / tanque;
+					var pplg = gasolina/precoG;
+					var ppla = alcool/precoA;
+					document.write("Gasolina: "+consumoGasolina.toFixed(2)+"<br>");
+					document.write("Alcool: "+consumoAlcool.toFixed(2)+"<br>");
+					document.write("preço por caminho Gasolina: "+pplg.toFixed(2)+"<br>");
+					document.write("preço por caminho Alcool: "+ppla.toFixed(2)+"<br>");
 				</script>
 			</body>
 
